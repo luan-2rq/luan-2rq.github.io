@@ -4,7 +4,7 @@
 
 <br/>
 
-### Campo Minado(Unity) - [Repositório](http://www.reddit.com) 
+### Campo Minado(Unity) - [Repositório](https://github.com/luan-2rq/campo-minado.git) 
 ---
 ###### Campo minado feito em unity. Para montar o grid do jogo foi utilizado tilemaping.
 
@@ -26,7 +26,7 @@
 <img src="https://luan-2rq.github.io/TesteCompleto.gif" width="620" height="450" />
 
 
-### Protect The Body(Godot) - [Repositório](http://www.reddit.com) 
+### Protect The Body(Godot) - [Repositório](https://github.com/luan-2rq/Protect-The-Body.git) 
 ---
 ###### Jogo criado na USP Game Dev em conjunto com 3 colegas.
 
@@ -36,7 +36,7 @@
 
 <br/>
 
-### Shaders de deformação de mesh feitos para um jogo que ainda está em progresso(Unity) - [Repositório](http://www.reddit.com) 
+### Shaders de deformação de mesh feitos para um jogo que ainda está em progresso(Unity) - [Repositório](https://github.com/luan-2rq/space-seal.git) 
 ---
 
 ###### O primeiro shader que anima a boca da foca, recebe um ângulo que determina o quanto a boca abrirá. Já o segundo shader utiliza uma textura que diz como a foca deve inflar, está textura é adquirida através de um Animation Curve que é transformado em textura.
@@ -48,7 +48,7 @@
 
 <br/>
 
-### Clone Bomberman(Godot) - [Repositório](http://www.reddit.com) 
+### Clone Bomberman(Godot) - [Repositório](https://github.com/luan-2rq/bomberman-clone) 
 ---
 ###### Este clone foi feito na USP Game Dev juntamente com outros 3 colegas.
 
