@@ -1,26 +1,12 @@
 <h1 align="center"> Portfólio - Luan Monteiro </h1>
 
-<h4 align="center"> Atualmente trabalho como estagiário de Quality Assurance na área de jogos </h4>
-<h4 align="center">_________________________________________________________________________________________________________________________________________</h4>
-<h4 align="center"> Os projetos abaixos foram feitos nas engines Godot ou Unity e o endereço para o repositório de cada um dos projetos se encontra citado abaixo </h4>
-
+<h4 align="center"> Os projetos abaixo foram feitos nas engines Godot e Unity e o endereço para o repositório de cada um dos projetos se encontra citado abaixo: </h4>
 
 <br/>
 
-### Testes automatizados na unity para o jogo Logic Pic(Unity) [Link]: 
+### Campo Minado(Unity) - [Repositório](http://www.reddit.com) 
 ---
-
-###### Testes automatizados feitos para o jogo Logic Pic, são testes de alto nível feitos na unity, que tentam imitar o que o usuário faria ao jogar. Os testes desenvolvidos servem para qualquer fase do jogo, assim mesmo que uma nova fase seja criada, os testes ainda funcionarão.
-
-<br/>
-
-<img src="https://luan-2rq.github.io/TesteCompleto.gif" width="620" height="450" />
-
-<br/>
-
-### Campo Minado(Unity) [Link]: 
----
-###### Campo minado feito em unity, para montar o board foi utilizado TileMap.
+###### Campo minado feito em unity. Para montar o grid do jogo foi utilizado tilemaping.
 
 <br/>
 
@@ -28,9 +14,21 @@
 
 <br/>
 
-### Protect The Body(Godot) [Link]: 
+<br/>
+
+### Testes automatizados na unity para o jogo Logic Pic(Unity) - [Não possui repositório público]()
+
+
+###### Testes automatizados feitos para o jogo Logic Pic, são testes de alto nível feitos na unity, que tentam imitar o que o usuário faria ao jogar. Os testes desenvolvidos servem para qualquer fase do jogo, assim mesmo que uma nova fase seja criada, os testes ainda funcionarão.
+
+<br/>
+
+<img src="https://luan-2rq.github.io/TesteCompleto.gif" width="620" height="450" />
+
+
+### Protect The Body(Godot) - [Repositório](http://www.reddit.com) 
 ---
-###### Jogo criado na USP Game Dev em conjunto com mais 3 colegas.
+###### Jogo criado na USP Game Dev em conjunto com 3 colegas.
 
 <br/>
 
@@ -38,10 +36,10 @@
 
 <br/>
 
-### Shaders de deformação feitos para um jogo que ainda está em progresso(Unity) [Link]:
+### Shaders de deformação de mesh feitos para um jogo que ainda está em progresso(Unity) - [Repositório](http://www.reddit.com) 
 ---
 
-###### O primeiro shader, que anima a boca da foca, recebe um ângulo que determina o quanto a boca abrirá. Já o segundo shader utiliza uma textura que diz como a foca deve inflar, está textura é adquirida através de um Animation Curve que é transformado em textura.
+###### O primeiro shader que anima a boca da foca, recebe um ângulo que determina o quanto a boca abrirá. Já o segundo shader utiliza uma textura que diz como a foca deve inflar, está textura é adquirida através de um Animation Curve que é transformado em textura.
 
 <br/>
 
@@ -50,7 +48,7 @@
 
 <br/>
 
-### Clone Bomberman(Godot) [Link]: 
+### Clone Bomberman(Godot) - [Repositório](http://www.reddit.com) 
 ---
 ###### Este clone foi feito na USP Game Dev juntamente com outros 3 colegas.
 
