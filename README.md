@@ -1,34 +1,21 @@
-<h1 align="center"> Portfólio - Luan Monteiro </h1>
+<h1 align="center"> Portfolio - Luan Monteiro </h1>
 
-<h4 align="center"> Os projetos abaixo foram feitos nas engines Godot e Unity e o endereço para o repositório de cada um dos projetos se encontra citado abaixo: </h4>
+<h4 align="center"> The projects below were made using the Godot and Unity engines, and the repository link for each project is mentioned below: </h4>
+
 
 <br/>
 
-### Campo Minado(Unity) - [Repositório](https://github.com/luan-2rq/campo-minado.git) 
----
-###### Campo minado feito em unity. Para montar o grid do jogo foi utilizado tilemaping.
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/35119030/128855355-5657e8ea-9a71-45cd-89ad-31080a67ecb0.gif" width="500" height="400" />
-
-<br/>
-
-<br/>
-
-### Testes automatizados na unity para o jogo Logic Pic(Unity) - [Não possui repositório público]()
-
-
-###### Testes automatizados feitos para o jogo Logic Pic, são testes de alto nível feitos na unity, que tentam imitar o que o usuário faria ao jogar. Os testes desenvolvidos servem para qualquer fase do jogo, assim mesmo que uma nova fase seja criada, os testes ainda funcionarão.
+### Automated Testing for Logic Pic Game(Unity) - [No public repository available]()
+###### Automated tests developed for the Logic Pic game, these are high-level tests implemented using Behave/Cucumber Framework and python. The developed tests are applicable to any game level, so even if a new level is created, the tests will still work.
 
 <br/>
 
 <img src="https://luan-2rq.github.io/TesteCompleto.gif" width="620" height="450" />
 
 
-### Protect The Body(Godot) - [Repositório](https://github.com/luan-2rq/Protect-The-Body.git) 
+### Protect The Body(Godot) - [Repository](https://github.com/luan-2rq/Protect-The-Body.git)
 ---
-###### Jogo criado na USP Game Dev em conjunto com 3 colegas.
+###### Game created at USP Game Dev with 3 colleagues.
 
 <br/>
 
@@ -36,10 +23,9 @@
 
 <br/>
 
-### Shaders de deformação de mesh feitos para um jogo que ainda está em progresso(Unity) - [Repositório](https://github.com/luan-2rq/space-seal.git) 
+### Mesh Deformation Shaders developed for a game still in progress(Unity) - [Repository](https://github.com/luan-2rq/space-seal.git)
 ---
-
-###### O primeiro shader que anima a boca da foca, recebe um ângulo que determina o quanto a boca abrirá. Já o segundo shader utiliza uma textura que diz como a foca deve inflar, está textura é adquirida através de um Animation Curve que é transformado em textura.
+###### Mesh deforming shaders for a Unity Game I'm developing. The first shader animates the seal's mouth based on an angle input that determines the mouth's openness. The second shader utilizes a texture dictating how the seal should inflate; This texture is obtained through an Animation Curve transformed into a texture.
 
 <br/>
 
@@ -48,13 +34,24 @@
 
 <br/>
 
-### Clone Bomberman(Godot) - [Repositório](https://github.com/luan-2rq/bomberman-clone) 
+<br/>
+
+### Minesweeper(Unity) - [Repository](https://github.com/luan-2rq/campo-minado.git)
 ---
-###### Este clone foi feito na USP Game Dev juntamente com outros 3 colegas.
+###### Minesweeper game developed in Unity. A version of the classic Minesweeper.
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/35119030/128855355-5657e8ea-9a71-45cd-89ad-31080a67ecb0.gif" width="500" height="400" />
+
+<br/>
+
+### Bomberman Clone(Godot) - [Repository](https://github.com/luan-2rq/bomberman-clone)
+---
+###### This Bomberman adaptation, created using Godot, emerged from collaborative efforts within USP Game Dev alongside three talented colleagues.
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/35119030/128855342-f4a577f1-4ab7-40f6-b7ff-3060df06190d.gif" width="550" height="400" />
 
 <br/>
-
