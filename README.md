@@ -10,7 +10,7 @@
 
 <br/>
 
-<video width="650" height="500" controls loop="" muted = "" autoplay="">
+<video width="1400" height="1076" controls loop="" muted = "" autoplay="">
 <source src="https://github.com/luan-2rq/luan-2rq.github.io/raw/main/teste.mp4">
 </video>
 
@@ -20,7 +20,7 @@
 
 <br/>
 
-<img src="https://luan-2rq.github.io/protect-the-body.gif" width="1400" height="1076" />
+<img src="https://luan-2rq.github.io/protect-the-body.gif" width="600" height="400" />
 
 <br/>
 
