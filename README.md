@@ -20,7 +20,7 @@
 
 <br/>
 
-<img src="https://luan-2rq.github.io/protect-the-body.gif" width="530" height="400" />
+<img src="https://luan-2rq.github.io/protect-the-body.gif" width="1400" height="1076" />
 
 <br/>
 
