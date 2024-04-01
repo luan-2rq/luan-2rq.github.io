@@ -49,9 +49,7 @@
 
 <img src="https://user-images.githubusercontent.com/35119030/128855425-9d2baef6-d64f-4418-b177-e6ea520cbe0c.gif" width="600" height="400" />
 <img src="https://user-images.githubusercontent.com/35119030/128855492-ac253b5b-97f9-47c3-94f6-117164acc035.gif" width="600" height="400" />
-<video width="650" height="500" controls loop="" muted = "" autoplay="">
-<source src="https://github.com/luan-2rq/luan-2rq.github.io/raw/main/seal.mp4">
-</video>
+<img src="https://luan-2rq.github.io/seal.gif" width="600" height="400" />
 
 <br/>
 
