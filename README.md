@@ -24,7 +24,7 @@
 
 ### Super Plants - [No public repository available]
 ---
-###### Game created by me february/march 2024.
+###### Game I'm developing about managing to grow huge plants.
 
 <video width="650" height="500" controls loop="" muted = "" autoplay="">
 <source src="https://github.com/luan-2rq/luan-2rq.github.io/raw/main/plants.mp4">
