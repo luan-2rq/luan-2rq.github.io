@@ -14,6 +14,22 @@
 <source src="https://github.com/luan-2rq/luan-2rq.github.io/raw/main/teste.mp4">
 </video>
 
+### Ants: Leaf Raiders - [No public repository available]
+---
+###### Game created by me in march 2024.
+
+<video width="650" height="500" controls loop="" muted = "" autoplay="">
+<source src="https://github.com/luan-2rq/luan-2rq.github.io/raw/main/ants.mp4">
+</video>
+
+### Super Plants - [No public repository available]
+---
+###### Game created by me february/march 2024.
+
+<video width="650" height="500" controls loop="" muted = "" autoplay="">
+<source src="https://github.com/luan-2rq/luan-2rq.github.io/raw/main/plants.mp4">
+</video>
+
 ### Protect The Body(Godot) - [Repository](https://github.com/luan-2rq/Protect-The-Body.git)
 ---
 ###### Game created at USP Game Dev with 3 colleagues.
