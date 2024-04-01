@@ -40,26 +40,18 @@
 
 <br/>
 
-### Mesh deformation shaders for movement for a game still in progress(Unity) - [Repository](https://github.com/luan-2rq/space-seal.git)
+
+### Mesh deformation shaders for a game still in progress(Unity) - [Repository](https://github.com/luan-2rq/space-seal.git)
 ---
-###### Seal movement implementation with mesh deformation shaders.
-
-<br/>
-
-<video width="650" height="500" controls loop="" muted = "" autoplay="">
-<source src="https://github.com/luan-2rq/luan-2rq.github.io/raw/main/seal.mp4">
-</video>
-
-<br/>
-
-### Mesh deformation shaders for inflation for a game still in progress(Unity) - [Repository](https://github.com/luan-2rq/space-seal.git)
----
-###### Mesh deforming shaders for a Unity Game I'm developing. The first shader animates the seal's mouth based on an angle input that determines the mouth's openness. The second shader utilizes a texture dictating how the seal should inflate; This texture is obtained through an Animation Curve transformed into a texture.
+###### Mesh deforming shaders for a Unity Game I'm developing. The first shader animates the seal's mouth based on an angle input that determines the mouth's openness. The second shader utilizes a texture dictating how the seal should inflate; This texture is obtained through an Animation Curve transformed into a texture. The third one animates smoothly the character movement.
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/35119030/128855425-9d2baef6-d64f-4418-b177-e6ea520cbe0c.gif" width="600" height="400" />
 <img src="https://user-images.githubusercontent.com/35119030/128855492-ac253b5b-97f9-47c3-94f6-117164acc035.gif" width="600" height="400" />
+<video width="650" height="500" controls loop="" muted = "" autoplay="">
+<source src="https://github.com/luan-2rq/luan-2rq.github.io/raw/main/seal.mp4">
+</video>
 
 <br/>
 
