@@ -40,7 +40,7 @@
 
 <br/>
 
-### Mesh deformation shaders for movement in a game still in progress(Unity) - [Repository](https://github.com/luan-2rq/space-seal.git)
+### Mesh deformation shaders for movement for a game still in progress(Unity) - [Repository](https://github.com/luan-2rq/space-seal.git)
 ---
 ###### Seal movement implementation with mesh deformation shaders.
 
