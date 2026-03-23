@@ -1,166 +1,200 @@
 <html><head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial scale=1.0, maxium-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="index.css">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500,700" rel="stylesheet">
-	
-	<meta name="keywords" content="Luan Monteiro, São Paulo, QA, Data, Games, Mobile Games, QA Automation, Manual Testing, Automated Testing, Test Automation, Brazil">
-	<meta name="description" content=" QA ">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<meta name="keywords" content="Luan Monteiro, São Paulo, C++, Test Automation, QA Automation, E2E Testing, Game Testing, Mobile Games, SFML, CMake, GitHub Actions, CI/CD, Test Framework, QA Engineer, Brazil">
+	<meta name="description" content="QA Automation Engineer specialising in C++ test frameworks and game quality — E2E framework design, CI integration, and mobile game testing.">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<title>Portfolio - Luan Monteiro</title></head>
+	<title>Portfolio - Luan Monteiro</title>
+</head>
 
 <body>
-
-
 <div id="main">
 
-    <div class="sub-intro">
-            <p id="name">Luan Monteiro<br></p>
+  <div class="sub-intro">
+    <p id="name">Luan Monteiro</p>
+    <p class="subtitle">QA Automation Engineer &mdash; Game Testing &amp; CI/CD</p>
+    <p class="edu">B.S. Information Systems &middot; Universidade de São Paulo</p>
+    <nav class="navbar1">
+      <a href="https://www.linkedin.com/in/luan-monteiro-a6aa12153/">LinkedIn</a>
+      <a href="https://github.com/luan-2rq">GitHub</a>
+    </nav>
+  </div>
 
-            <p class="context">Graduated in B.S. Information Systems - Universidade de São Paulo</p>
+  <div class="pages">
+    <p class="title">Portfolio</p>
 
-            <div class="navbar1">
-                <a href="https://www.linkedin.com/in/luan-monteiro-a6aa12153/" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" class="link">
-                LinkedIn&nbsp;</a>
-                
-            </div>
-            
+    <div class="tabs">
+
+      <!-- ── Test Automation ── -->
+      <input type="radio" name="tabs" id="tabone" checked>
+      <label for="tabone">Test Automation</label>
+      <div class="tab">
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">C++ E2E Test Framework for SFML Games</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/sfml-e2e-test-framework" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">C++</span><span class="tag">CMake</span><span class="tag">SFML</span>
+            <span class="tag">GTest</span><span class="tag">Headless CI</span><span class="tag">Flaky Detection</span>
+          </div>
+          <p class="context">A game-agnostic end-to-end test framework built in modern C++ with CMake. Implements structured WHEN/DO/THEN/EXPECT interaction steps with automatic retry until expectations are met or a configurable timeout is reached. Features include: timestamped execution logs, headless CI mode (default) and headed visual mode, flaky-test detection via configurable repeat runs, and failure screenshot artifact capture on timeout. The framework is fully decoupled from any specific game — consumers supply their own driver factory, bootstrap, and predicates, keeping the core reusable across projects.</p>
+          <div class="media-wrap">
+            <img src="./assets/memorygame_e2e.gif" alt="E2E test framework in action" />
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Memory Game (C++/SFML) with E2E Test Suite &amp; CI</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/memory-game" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">C++</span><span class="tag">SFML</span><span class="tag">CMake</span>
+            <span class="tag">GitHub Actions</span><span class="tag">Python</span><span class="tag">E2E Testing</span>
+          </div>
+          <p class="context">A memory card-matching game built from scratch in C++ using SFML, featuring a custom Engine (game loop, scene system, delayed-action timer) and a complete E2E test suite powered by the framework above. Tests cover board setup, card-flip mechanics, match/mismatch logic, and restart behaviour. GitHub Actions CI builds with CMake/Ninja on every push, runs the suite in headless mode, and uploads failure screenshot artifacts for rapid diagnosis. Includes Python tooling to generate GIF captures compositing gameplay and timestamped test logs side-by-side.</p>
+          <div class="media-wrap">
+            <video controls loop muted autoplay>
+              <source src="./assets/memory_game_gameplay.mp4">
+            </video>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Automated Tests for Google Maps (Playwright)</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/GoogleMapsUITests" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Playwright</span><span class="tag">NUnit</span><span class="tag">C#</span><span class="tag">UI Testing</span>
+          </div>
+          <p class="context">Test automation project for Google Maps using Playwright with NUnit. Focuses on location search functionalities.</p>
+          <div class="description">
+            <img class="responsive" src="./assets/google_maps_tests.gif" width="600" height="400" />
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Website Platform Built with Automated Tests</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/projeto-ensinar" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Ruby on Rails</span><span class="tag">RSpec</span><span class="tag">Web</span>
+          </div>
+          <p class="context">Exam creation web platform implemented using Ruby on Rails, using its automated testing features to ensure seamless functionality.</p>
+          <div class="description">
+            <video class="responsive" width="650" height="500" controls loop muted autoplay>
+              <source src="./assets/ensinar_platform.mp4">
+            </video>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── Games ── -->
+      <input type="radio" name="tabs" id="tabtwo">
+      <label for="tabtwo">Games</label>
+      <div class="tab">
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Ants: Leaf Raiders</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Godot</span><span class="tag">iOS</span><span class="tag">Android</span>
+          </div>
+          <p class="context">Game for iOS and Android using Godot.</p>
+          <div class="description">
+            <video class="responsive" width="320" height="240" controls loop muted autoplay>
+              <source src="./assets/ants.mp4">
+            </video>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Super Plants</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/super-plants" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Godot</span><span class="tag">Procedural Generation</span>
+          </div>
+          <p class="context">Game in development where players cultivate procedurally generated plants.</p>
+          <div class="description">
+            <video class="responsive" width="320" height="240" controls loop muted autoplay>
+              <source src="./assets/plants.mp4">
+            </video>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Protect The Body (Godot)</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/Protect-The-Body.git" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Godot</span><span class="tag">Team Project</span>
+          </div>
+          <p class="context">Game created at USP Game Dev with 3 colleagues.</p>
+          <div class="description">
+            <img class="responsive" src="./assets/protect_the_body.gif" width="600" height="400" />
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Mesh Deformation Shaders (Unity)</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/space-seal.git" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Unity</span><span class="tag">HLSL</span><span class="tag">Shaders</span><span class="tag">Graphics</span>
+          </div>
+          <p class="context">Mesh deforming shaders for a Unity game: a mouth-animation shader driven by an angle input, an inflation shader using an Animation Curve baked to texture, and a smooth movement shader.</p>
+          <div class="description">
+            <img class="responsive" src="./assets/seal_mouth_opening.gif" width="600" height="400" />
+            <img class="responsive" src="./assets/seal_inflating.gif" width="600" height="400" />
+            <img class="responsive" src="./assets/seal_movement.gif" width="600" height="400" />
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Minesweeper (Unity)</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/campo-minado.git" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Unity</span><span class="tag">C#</span>
+          </div>
+          <p class="context">Classic Minesweeper game developed in Unity.</p>
+          <div class="description">
+            <img class="responsive" src="./assets/mine_sweeper.gif" width="500" height="400" />
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Bomberman Clone (Godot)</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/bomberman-clone" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">Godot</span><span class="tag">GDScript</span><span class="tag">Team Project</span>
+          </div>
+          <p class="context">Bomberman adaptation created in Godot, developed collaboratively within USP Game Dev alongside three colleagues.</p>
+          <div class="description">
+            <img class="responsive" src="./assets/bomberman_clone.gif" width="550" height="400" />
+          </div>
+        </div>
+
+      </div>
+
     </div>
+  </div>
 
-
-
-    <div class="pages">
-
-            <div class="title link">
-                <p class="title">Portfolio</p>
-            </div>
-
-            <div class="tabs">
-
-                <input type="radio" name="tabs" id="tabone" checked="checked">
-                <label class="navbar" for="tabone">Test Automation</label>
-                <div class="tab">
-
-                    <p class="title1">Automated tests for Google Maps(Playwright) - <a href="https://github.com/luan-2rq/GoogleMapsUITests" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Repo</a></p>
-                    <div class="description">
-                        <p class="context">Testing automation project for Google Maps using Playwright framework with NUnit. It focuses on testing location search functionalities.</p>
-                        <img class="responsive" src="./assets/google_maps_tests.gif" width="600" height="400" />
-                    </div>
-
-                    <p class="title1">Automated testing for Logic Pic Game(Unity)</p>
-
-                    <div class="description">
-                        <p class="context">Automated tests developed for the Logic Pic game, these are high-level tests implemented using Behave/Cucumber Framework and python. The developed tests are applicable to any game level, so even if a new level is created, the tests will still work.</p>
-
-                        <video class="responsive" width="650" height="500" controls loop="" muted = "" autoplay="">
-                        <source src="./assets/logic_pic_tests.mp4">
-                        </video>
-                    </div>
-
-                    <p class="title1">Website platform created with use of automated tests - <a href="https://github.com/luan-2rq/projeto-ensinar" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Repo</a></p>
-                    
-                    <div class="description">
-                        <p class="context">Exam creation web platform implemented using Ruby on Rails, using its automated testing features to ensure seamless functionality.</p>
-
-                        <video class="responsive" width="650" height="500" controls loop="" muted = "" autoplay="">
-                        <source src="./assets/ensinar_platform.mp4">
-                        </video>
-                    </div>
-                </div>
-
-                <input type="radio" name="tabs" id="tabtwo">
-                <label class="navbar" for="tabtwo">Games</label>
-                <div class="tab">
-                    <p class="title1">Ants: Leaf Raiders</p>
-                    <div class="description">
-                        <p class="context">Game for iOS and Android using Godot.</p>
-
-                        <video class="responsive" width="180" height="135" controls loop="" muted = "" autoplay="">
-                        <source src="./assets/ants.mp4">
-                        </video>
-                    </div>
-
-                    <p class="title1">Super Plants - <a href="https://github.com/luan-2rq/super-plants" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Repo</a></p>
-
-                    <div class="description">
-                        <p class="context">Game in development where players cultivate procedurally generated plants.</p>
-
-                        <video class="responsive" width="180" height="135" controls loop="" muted = "" autoplay="">
-                        <source src="./assets/plants.mp4">
-                        </video>
-                    </div>
-
-                    <p class="title1">Protect The Body(Godot) - <a href="https://github.com/luan-2rq/Protect-The-Body.git" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Repo</a></p>
-
-                    <div class="description">
-                        <p class="context">Game created at USP Game Dev with 3 colleagues.</p>
-                        <img class="responsive" src="./assets/protect_the_body.gif" width="600" height="400" />
-                    </div>
-
-                    <p class="title1">Mesh deformation shaders for a game still in progress(Unity) - <a href="https://github.com/luan-2rq/space-seal.git" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Repo</a></p>
-                    <div class="description">
-                        <p class="context">Mesh deforming shaders for a Unity Game I'm developing. The first shader animates the seal's mouth based on an angle input that determines the mouth's openness. The second shader utilizes a texture dictating how the seal should inflate; This texture is obtained through an Animation Curve transformed into a texture. The third one animates smoothly the character movement.</p>
-
-                        <img class="responsive" src="./assets/seal_mouth_opening.gif" width="600" height="400" />
-                        <img class="responsive" src="./assets/seal_inflating.gif" width="600" height="400" />
-                        <img class="responsive" src="./assets/seal_movement.gif" width="600" height="400" />
-                    </div>
-
-                    <p class="title1">Minesweeper(Unity) - <a href="https://github.com/luan-2rq/campo-minado.git" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Repo</a></p>
-                    
-                    <div class="description">
-                        <p class="context">Minesweeper game developed in Unity. A version of the classic Minesweeper.</p>
-                        <img class="responsive" src="./assets/mine_sweeper.gif" width="500" height="400" />
-                    </div>
-
-                    <p class="title1">Bomberman Clone(Godot) - <a href="https://github.com/luan-2rq/bomberman-clone" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Repo</a></p>
-
-                    <div class="description">
-                        <p class="context">Bomberman adaptation, created using Godot, emerged from collaborative efforts within USP Game Dev alongside three talented colleagues.</p>
-                        <img class="responsive"  class="responsive" src="./assets/bomberman_clone.gif" width="550" height="400" />
-                    </div>
-                </div>
-                
-                <input type="radio" name="tabs" id="tabthree">
-                <label class="navbar" for="tabthree">Data Related</label>
-                <div class="tab">
-
-                    <p class="title1">Google clusters data analysis - <a href="https://github.com/luan-2rq/spark-google-data-analysis" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Repo</a></p>
-
-                    <div class="description">
-                        <p class="context">Data analysis using spark to analize google clusters data and answer some questions in respect to the resources usage, such as:
-                        "How many jobs are submitted per hour?", "How many tasks are submitted per hour?", "How long does it take for the first task of a job to start being executed?", What is the frequency of each job type for job events?...</p>
-
-                        <img class="responsive" src="./assets/pyspark.png" width="600" height="400" />
-
-                    </div>
-
-                    <p class="title1">Webpage to access stock data - <a href="https://github.com/luan-2rq/mamaa-api" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> API Repo</a> | <a href="https://github.com/luan-2rq/mamaa" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Frontend Repo</a></p>
-                    
-                    <div class="description">
-                        <p class="context">Webpage using Redis to store historic stock data for quickier access. The API to access the stock data is implemented using Python(Flask) and the Frontend using React.</p>
-
-                        <video class="responsive" width="650" height="500" controls loop="" muted = "" autoplay="">
-                        <source src="./assets/stock.mp4">
-                        </video>
-                    </div>
-
-                    <p class="title1">Neural network(MLP) for character identification - <a href="https://github.com/luan-2rq/character-identification-neural-network" style="color:#0091ff; text-decoration-color:#0084ff; text-decoration:none;" target="_top" alt="email" style="text-decoration: none !important;"> Repo</a></p>
-                    
-                    <div class="description">
-                        <p class="context">Artificial neural network Multilayer Perceptron (MLP) for character recognition.</p>
-
-                        <img class="responsive" src="./assets/character_identification_mlp.png" width="600" height="400" />
-
-                    </div>
-                </div>
-
-    </div>
 </div>
-
 </body>
 </html>
-
-
-
-
