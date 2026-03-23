@@ -41,26 +41,33 @@
             <span class="tag">C++</span><span class="tag">CMake</span><span class="tag">SFML</span>
             <span class="tag">GTest</span><span class="tag">Headless CI</span><span class="tag">Flaky Detection</span>
           </div>
-          <p class="context">A game-agnostic end-to-end test framework built in modern C++ with CMake. Implements structured WHEN/DO/THEN/EXPECT interaction steps with automatic retry until expectations are met or a configurable timeout is reached. Features include: timestamped execution logs, headless CI mode (default) and headed visual mode, flaky-test detection via configurable repeat runs, and failure screenshot artifact capture on timeout. The framework is fully decoupled from any specific game — consumers supply their own driver factory, bootstrap, and predicates, keeping the core reusable across projects.</p>
+          <p class="context">A game-agnostic E2E test framework built in modern C++, designed to be plugged into any SFML game without modification to the core. 
+            
+            Tests are expressed as structured <strong>WHEN / DO / THEN / EXPECT</strong> steps with automatic retry until expectations are met or a configurable timeout is reached.</p>
+          <ul class="feature-list">
+            <li>
+              <span class="feat-label">Reliability</span>
+              <span>Flaky-test detection via configurable repeat runs</span>
+            </li>
+            <li>
+              <span class="feat-label">CI Mode</span>
+              <span>Headless by default; headed visual mode available</span>
+            </li>
+            <li>
+              <span class="feat-label">Logging</span>
+              <span>Timestamped execution logs</span>
+            </li>
+            <li>
+              <span class="feat-label">Artifacts</span>
+              <span>Automatic failure screenshot capture as CI artifacts</span>
+            </li>
+            <li>
+              <span class="feat-label">Architecture</span>
+              <span>Fully decoupled — consumers provide their own driver factory, bootstrap, and predicates</span>
+            </li>
+          </ul>
           <div class="media-wrap">
             <img src="./assets/memorygame_e2e.gif" alt="E2E test framework in action" />
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-header">
-            <p class="title1">Memory Game (C++/SFML) with E2E Test Suite &amp; CI</p>
-            <a class="repo-link" href="https://github.com/luan-2rq/memory-game" target="_blank">Repo ↗</a>
-          </div>
-          <div class="tags">
-            <span class="tag">C++</span><span class="tag">SFML</span><span class="tag">CMake</span>
-            <span class="tag">GitHub Actions</span><span class="tag">Python</span><span class="tag">E2E Testing</span>
-          </div>
-          <p class="context">A memory card-matching game built from scratch in C++ using SFML, featuring a custom Engine (game loop, scene system, delayed-action timer) and a complete E2E test suite powered by the framework above. Tests cover board setup, card-flip mechanics, match/mismatch logic, and restart behaviour. GitHub Actions CI builds with CMake/Ninja on every push, runs the suite in headless mode, and uploads failure screenshot artifacts for rapid diagnosis. Includes Python tooling to generate GIF captures compositing gameplay and timestamped test logs side-by-side.</p>
-          <div class="media-wrap">
-            <video controls loop muted autoplay>
-              <source src="./assets/memory_game_gameplay.mp4">
-            </video>
           </div>
         </div>
 
@@ -100,6 +107,37 @@
       <input type="radio" name="tabs" id="tabtwo">
       <label for="tabtwo">Games</label>
       <div class="tab">
+
+        <div class="project-card">
+          <div class="project-header">
+            <p class="title1">Memory Game (C++/SFML) with E2E Test Suite &amp; CI</p>
+            <a class="repo-link" href="https://github.com/luan-2rq/memory-game" target="_blank">Repo ↗</a>
+          </div>
+          <div class="tags">
+            <span class="tag">C++</span><span class="tag">SFML</span><span class="tag">CMake</span>
+            <span class="tag">GitHub Actions</span><span class="tag">Python</span><span class="tag">E2E Testing</span>
+          </div>
+          <p class="context">Memory card-matching game built from scratch in C++/SFML with a custom engine and full E2E test coverage.</p>
+          <ul class="feature-list">
+            <li>
+              <span class="feat-label">Engine</span>
+              <span>Custom game loop, scene system, and delayed-action timer</span>
+            </li>
+            <li>
+              <span class="feat-label">Test Coverage</span>
+              <span>Board setup, card-flip mechanics, match/mismatch logic, and restart behaviour</span>
+            </li>
+            <li>
+              <span class="feat-label">CI/CD</span>
+              <span>GitHub Actions builds with CMake/Ninja on every push; headless suite run with failure screenshot artifacts</span>
+            </li>
+          </ul>
+          <div class="media-wrap">
+            <video controls loop muted autoplay>
+              <source src="./assets/memory_game_gameplay.mp4">
+            </video>
+          </div>
+        </div>
 
         <div class="project-card">
           <div class="project-header">
